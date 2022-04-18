@@ -1,0 +1,58 @@
+.contains-task-list LI
+  list-style-type none
+.footer-wrapper.footer>:first-child
+  display none
+.react-color .title
+  color $danger
+.angular-color .title
+  color $warning
+body
+  background red
+// 链接块
+.link-block
+  margin 0 -5px
+  width 100%
+  > .link-item
+    margin 15px 7px 0
+    padding 10px
+    display inline-block
+    width 190px
+    height 100px
+    text-align center
+    cursor pointer
+    background var(--code-color)
+    text-decoration none !important
+    border 1px solid transparent
+    border-radius 4px
+    box-sizing border-box
+    overflow hidden
+    &:hover
+      border-color $accentColor
+    p
+      margin 0
+      line-height inherit
+      &.title
+        padding-top 10px
+        padding-bottom 5px
+      &.intro
+        font-size 0.8em
+        color #666
+        display -webkit-box
+        -webkit-box-orient vertical
+        -webkit-line-clamp 2
+        overflow hidden
+// Home Page
+.hero h1
+  color #fff
+.hero .description
+  color #fff
+.home-blog
+  background-image linear-gradient(to bottom, #090525, #160655)
+// .home-blog-wrapper
+// background-color #ccc
+// Header
+$themePicker = {
+  colorName1: red,
+  colorName2: yellow,
+  colorName3: blue
+}

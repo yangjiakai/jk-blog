@@ -1,0 +1,15 @@
+{
+  "name": "yjkblog",
+  "version": "1.0.0",
+  "author": "reco_luan",
+  "scripts": {
+    "dev1": "vuepress dev . --open --host \"localhost\"",
+    "dev": "vuepress dev --temp .temp",
+    "build": "vuepress build ."
+  },
+  "devDependencies": {
+    "vuepress": "1.8.2",
+    "vuepress-theme-reco": "1.6.10"
+  },
+  "description": "YANG JK BLOG"
+}

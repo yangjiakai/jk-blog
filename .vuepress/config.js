@@ -1,6 +1,6 @@
 module.exports = {
-  title: "yjkblog",
-  description: "YANG JK BLOG",
+  title: "Blog",
+  description: "YANG J.K.'s NoteBook",
   dest: "public",
   head: [
     [
@@ -20,6 +20,7 @@ module.exports = {
   ],
   theme: "reco",
   themeConfig: {
+    modePicker: false,
     nav: [
       {
         text: "Home",
@@ -86,7 +87,7 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 10,
     lastUpdated: "Last Updated",
-    author: "YANG J.K",
+    author: "YANG J.K.",
     authorAvatar: "/avatar.png",
     record: "xxxx",
     startYear: "2017",

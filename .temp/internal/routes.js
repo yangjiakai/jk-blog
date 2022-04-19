@@ -21,14 +21,6 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-4ddec33a",
-    path: "/blogs/category2/2016/121501.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4ddec33a").then(next)
-    },
-  },
-  {
     name: "v-2b49becd",
     path: "/blogs/other/guide.html",
     component: GlobalLayout,
@@ -37,60 +29,20 @@ export const routes = [
     },
   },
   {
-    name: "v-9ff679cc",
-    path: "/blogs/category1/2019/092101.html",
+    name: "v-c085bf28",
+    path: "/pages/a650b4a0ebfc9350/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-9ff679cc").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-c085bf28").then(next)
     },
   },
   {
-    name: "v-26bbb24c",
-    path: "/blogs/category1/2018/121501.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-26bbb24c").then(next)
-    },
+    path: "/pages/a650b4a0ebfc9350/index.html",
+    redirect: "/pages/a650b4a0ebfc9350/"
   },
   {
-    name: "v-11415f7a",
-    path: "/blogs/category2/2017/092101.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-11415f7a").then(next)
-    },
-  },
-  {
-    name: "v-0fc76610",
-    path: "/pages/f344d070a1031ef7/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0fc76610").then(next)
-    },
-  },
-  {
-    path: "/pages/f344d070a1031ef7/index.html",
-    redirect: "/pages/f344d070a1031ef7/"
-  },
-  {
-    path: "/blogs/前端标准化/ESLint.html",
-    redirect: "/pages/f344d070a1031ef7/"
-  },
-  {
-    name: "v-7a8e90ce",
-    path: "/pages/c1edd70a6b7c7872/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7a8e90ce").then(next)
-    },
-  },
-  {
-    path: "/pages/c1edd70a6b7c7872/index.html",
-    redirect: "/pages/c1edd70a6b7c7872/"
-  },
-  {
-    path: "/blogs/《ES6 教程》笔记/02.let 和 const 命令.html",
-    redirect: "/pages/c1edd70a6b7c7872/"
+    path: "/blogs/《ES6 教程》笔记/05.字符串的新增方法.html",
+    redirect: "/pages/a650b4a0ebfc9350/"
   },
   {
     name: "v-2b6b1e91",
@@ -125,20 +77,20 @@ export const routes = [
     redirect: "/pages/ca89eca8adeba5f4/"
   },
   {
-    name: "v-c085bf28",
-    path: "/pages/a650b4a0ebfc9350/",
+    name: "v-7a8e90ce",
+    path: "/pages/c1edd70a6b7c7872/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-c085bf28").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7a8e90ce").then(next)
     },
   },
   {
-    path: "/pages/a650b4a0ebfc9350/index.html",
-    redirect: "/pages/a650b4a0ebfc9350/"
+    path: "/pages/c1edd70a6b7c7872/index.html",
+    redirect: "/pages/c1edd70a6b7c7872/"
   },
   {
-    path: "/blogs/《ES6 教程》笔记/05.字符串的新增方法.html",
-    redirect: "/pages/a650b4a0ebfc9350/"
+    path: "/blogs/《ES6 教程》笔记/02.let 和 const 命令.html",
+    redirect: "/pages/c1edd70a6b7c7872/"
   },
   {
     name: "v-9a69caf4",
@@ -157,22 +109,6 @@ export const routes = [
     redirect: "/pages/0473261a6ab0ee8c/"
   },
   {
-    name: "v-fc1b12ae",
-    path: "/pages/8ed309d668b20264/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-fc1b12ae").then(next)
-    },
-  },
-  {
-    path: "/pages/8ed309d668b20264/index.html",
-    redirect: "/pages/8ed309d668b20264/"
-  },
-  {
-    path: "/blogs/《ES6 教程》笔记/08.函数的扩展.html",
-    redirect: "/pages/8ed309d668b20264/"
-  },
-  {
     name: "v-7a34a994",
     path: "/pages/5dfea9a0f2d1a392/",
     component: GlobalLayout,
@@ -189,20 +125,36 @@ export const routes = [
     redirect: "/pages/5dfea9a0f2d1a392/"
   },
   {
-    name: "v-5ff2d8b6",
-    path: "/pages/b5e3e0a0ff6e9c25/",
+    name: "v-0fc76610",
+    path: "/pages/f344d070a1031ef7/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5ff2d8b6").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-0fc76610").then(next)
     },
   },
   {
-    path: "/pages/b5e3e0a0ff6e9c25/index.html",
-    redirect: "/pages/b5e3e0a0ff6e9c25/"
+    path: "/pages/f344d070a1031ef7/index.html",
+    redirect: "/pages/f344d070a1031ef7/"
   },
   {
-    path: "/blogs/《ES6 教程》笔记/10.对象的扩展.html",
-    redirect: "/pages/b5e3e0a0ff6e9c25/"
+    path: "/blogs/前端标准化/ESLint.html",
+    redirect: "/pages/f344d070a1031ef7/"
+  },
+  {
+    name: "v-fc1b12ae",
+    path: "/pages/8ed309d668b20264/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-fc1b12ae").then(next)
+    },
+  },
+  {
+    path: "/pages/8ed309d668b20264/index.html",
+    redirect: "/pages/8ed309d668b20264/"
+  },
+  {
+    path: "/blogs/《ES6 教程》笔记/08.函数的扩展.html",
+    redirect: "/pages/8ed309d668b20264/"
   },
   {
     name: "v-5d8cba3a",
@@ -221,20 +173,20 @@ export const routes = [
     redirect: "/pages/e34009d60d8bc4b2/"
   },
   {
-    name: "v-2534c2cf",
-    path: "/pages/e85e68947502cf90/",
+    name: "v-5ff2d8b6",
+    path: "/pages/b5e3e0a0ff6e9c25/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2534c2cf").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-5ff2d8b6").then(next)
     },
   },
   {
-    path: "/pages/e85e68947502cf90/index.html",
-    redirect: "/pages/e85e68947502cf90/"
+    path: "/pages/b5e3e0a0ff6e9c25/index.html",
+    redirect: "/pages/b5e3e0a0ff6e9c25/"
   },
   {
-    path: "/blogs/《ES6 教程》笔记/11.对象的新增方法.html",
-    redirect: "/pages/e85e68947502cf90/"
+    path: "/blogs/《ES6 教程》笔记/10.对象的扩展.html",
+    redirect: "/pages/b5e3e0a0ff6e9c25/"
   },
   {
     name: "v-b76c5fe0",
@@ -253,20 +205,20 @@ export const routes = [
     redirect: "/pages/02c86eb2792f3262/"
   },
   {
-    name: "v-2b5169de",
-    path: "/pages/0c21dae358fca16b/",
+    name: "v-2534c2cf",
+    path: "/pages/e85e68947502cf90/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2b5169de").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2534c2cf").then(next)
     },
   },
   {
-    path: "/pages/0c21dae358fca16b/index.html",
-    redirect: "/pages/0c21dae358fca16b/"
+    path: "/pages/e85e68947502cf90/index.html",
+    redirect: "/pages/e85e68947502cf90/"
   },
   {
-    path: "/blogs/《ES6 教程》笔记/13.Set 和 Map 数据结构.html",
-    redirect: "/pages/0c21dae358fca16b/"
+    path: "/blogs/《ES6 教程》笔记/11.对象的新增方法.html",
+    redirect: "/pages/e85e68947502cf90/"
   },
   {
     name: "v-e63e0d48",
@@ -285,36 +237,20 @@ export const routes = [
     redirect: "/pages/74de3e45e4491e95/"
   },
   {
-    name: "v-13d78db2",
-    path: "/pages/48df907ad3570f3d/",
+    name: "v-2b5169de",
+    path: "/pages/0c21dae358fca16b/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-13d78db2").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2b5169de").then(next)
     },
   },
   {
-    path: "/pages/48df907ad3570f3d/index.html",
-    redirect: "/pages/48df907ad3570f3d/"
+    path: "/pages/0c21dae358fca16b/index.html",
+    redirect: "/pages/0c21dae358fca16b/"
   },
   {
-    path: "/blogs/《ES6 教程》笔记/17.Iterator 和 for-of 循环.html",
-    redirect: "/pages/48df907ad3570f3d/"
-  },
-  {
-    name: "v-6a432548",
-    path: "/pages/f56ec2ab97d60483/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6a432548").then(next)
-    },
-  },
-  {
-    path: "/pages/f56ec2ab97d60483/index.html",
-    redirect: "/pages/f56ec2ab97d60483/"
-  },
-  {
-    path: "/blogs/《ES6 教程》笔记/14.Proxy.html",
-    redirect: "/pages/f56ec2ab97d60483/"
+    path: "/blogs/《ES6 教程》笔记/13.Set 和 Map 数据结构.html",
+    redirect: "/pages/0c21dae358fca16b/"
   },
   {
     name: "v-438860be",
@@ -333,6 +269,22 @@ export const routes = [
     redirect: "/pages/2810ae8985e9bd52/"
   },
   {
+    name: "v-6a432548",
+    path: "/pages/f56ec2ab97d60483/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6a432548").then(next)
+    },
+  },
+  {
+    path: "/pages/f56ec2ab97d60483/index.html",
+    redirect: "/pages/f56ec2ab97d60483/"
+  },
+  {
+    path: "/blogs/《ES6 教程》笔记/14.Proxy.html",
+    redirect: "/pages/f56ec2ab97d60483/"
+  },
+  {
     name: "v-6cc3cc1e",
     path: "/pages/75af7031eb66847b/",
     component: GlobalLayout,
@@ -347,6 +299,22 @@ export const routes = [
   {
     path: "/blogs/《ES6 教程》笔记/19.Generator 函数的异步应用.html",
     redirect: "/pages/75af7031eb66847b/"
+  },
+  {
+    name: "v-13d78db2",
+    path: "/pages/48df907ad3570f3d/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-13d78db2").then(next)
+    },
+  },
+  {
+    path: "/pages/48df907ad3570f3d/index.html",
+    redirect: "/pages/48df907ad3570f3d/"
+  },
+  {
+    path: "/blogs/《ES6 教程》笔记/17.Iterator 和 for-of 循环.html",
+    redirect: "/pages/48df907ad3570f3d/"
   },
   {
     name: "v-01d7a7b2",
@@ -397,22 +365,6 @@ export const routes = [
     redirect: "/pages/e831e1593c82bbe0/"
   },
   {
-    name: "v-39f253f8",
-    path: "/pages/83f8c3a0cd87dd83/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-39f253f8").then(next)
-    },
-  },
-  {
-    path: "/pages/83f8c3a0cd87dd83/index.html",
-    redirect: "/pages/83f8c3a0cd87dd83/"
-  },
-  {
-    path: "/blogs/《ES6 教程》笔记/22.Class 的继承.html",
-    redirect: "/pages/83f8c3a0cd87dd83/"
-  },
-  {
     name: "v-737f22ee",
     path: "/pages/efe2fb04eb8ac5fb/",
     component: GlobalLayout,
@@ -445,20 +397,20 @@ export const routes = [
     redirect: "/pages/a79ca2e64ceae213/"
   },
   {
-    name: "v-c983e98e",
-    path: "/pages/32c35f7651d6e58e/",
+    name: "v-39f253f8",
+    path: "/pages/83f8c3a0cd87dd83/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-c983e98e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-39f253f8").then(next)
     },
   },
   {
-    path: "/pages/32c35f7651d6e58e/index.html",
-    redirect: "/pages/32c35f7651d6e58e/"
+    path: "/pages/83f8c3a0cd87dd83/index.html",
+    redirect: "/pages/83f8c3a0cd87dd83/"
   },
   {
-    path: "/blogs/《ES6 教程》笔记/26.读懂 ECMAScript 规格.html",
-    redirect: "/pages/32c35f7651d6e58e/"
+    path: "/blogs/《ES6 教程》笔记/22.Class 的继承.html",
+    redirect: "/pages/83f8c3a0cd87dd83/"
   },
   {
     name: "v-4c0b0454",
@@ -477,6 +429,22 @@ export const routes = [
     redirect: "/pages/984bf549204bb266/"
   },
   {
+    name: "v-c983e98e",
+    path: "/pages/32c35f7651d6e58e/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-c983e98e").then(next)
+    },
+  },
+  {
+    path: "/pages/32c35f7651d6e58e/index.html",
+    redirect: "/pages/32c35f7651d6e58e/"
+  },
+  {
+    path: "/blogs/《ES6 教程》笔记/26.读懂 ECMAScript 规格.html",
+    redirect: "/pages/32c35f7651d6e58e/"
+  },
+  {
     name: "v-31c24c4f",
     path: "/pages/16121351be68691b/",
     component: GlobalLayout,
@@ -491,22 +459,6 @@ export const routes = [
   {
     path: "/blogs/《ES6 教程》笔记/27.异步遍历器.html",
     redirect: "/pages/16121351be68691b/"
-  },
-  {
-    name: "v-49abbeba",
-    path: "/pages/7188882b8d65af1b/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-49abbeba").then(next)
-    },
-  },
-  {
-    path: "/pages/7188882b8d65af1b/index.html",
-    redirect: "/pages/7188882b8d65af1b/"
-  },
-  {
-    path: "/blogs/《ES6 教程》笔记/29.最新提案.html",
-    redirect: "/pages/7188882b8d65af1b/"
   },
   {
     name: "v-2f750624",
@@ -525,20 +477,36 @@ export const routes = [
     redirect: "/pages/1cf50330655efc69/"
   },
   {
-    name: "v-28b5b13c",
-    path: "/pages/6a8e2dc558da1b39/",
+    name: "v-3c35f69d",
+    path: "/pages/e97bc1e5626b082c/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-28b5b13c").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-3c35f69d").then(next)
     },
   },
   {
-    path: "/pages/6a8e2dc558da1b39/index.html",
-    redirect: "/pages/6a8e2dc558da1b39/"
+    path: "/pages/e97bc1e5626b082c/index.html",
+    redirect: "/pages/e97bc1e5626b082c/"
   },
   {
-    path: "/blogs/《ES6 教程》笔记/32.Mixin.html",
-    redirect: "/pages/6a8e2dc558da1b39/"
+    path: "/blogs/《ES6 教程》笔记/30.装饰器.html",
+    redirect: "/pages/e97bc1e5626b082c/"
+  },
+  {
+    name: "v-49abbeba",
+    path: "/pages/7188882b8d65af1b/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-49abbeba").then(next)
+    },
+  },
+  {
+    path: "/pages/7188882b8d65af1b/index.html",
+    redirect: "/pages/7188882b8d65af1b/"
+  },
+  {
+    path: "/blogs/《ES6 教程》笔记/29.最新提案.html",
+    redirect: "/pages/7188882b8d65af1b/"
   },
   {
     name: "v-62ed22c8",
@@ -557,6 +525,38 @@ export const routes = [
     redirect: "/pages/a2ba314746bfdbdd/"
   },
   {
+    name: "v-28b5b13c",
+    path: "/pages/6a8e2dc558da1b39/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-28b5b13c").then(next)
+    },
+  },
+  {
+    path: "/pages/6a8e2dc558da1b39/index.html",
+    redirect: "/pages/6a8e2dc558da1b39/"
+  },
+  {
+    path: "/blogs/《ES6 教程》笔记/32.Mixin.html",
+    redirect: "/pages/6a8e2dc558da1b39/"
+  },
+  {
+    name: "v-1f1780bd",
+    path: "/blogs/%E6%91%84%E5%BD%B1%E8%AE%B0%E5%BD%95/2019/092101.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1f1780bd").then(next)
+    },
+  },
+  {
+    path: "/blogs/摄影记录/2019/092101.html",
+    redirect: "/blogs/%E6%91%84%E5%BD%B1%E8%AE%B0%E5%BD%95/2019/092101.html"
+  },
+  {
+    path: "/blogs/摄影记录/2019/092101.html",
+    redirect: "/blogs/%E6%91%84%E5%BD%B1%E8%AE%B0%E5%BD%95/2019/092101.html"
+  },
+  {
     name: "v-28794364",
     path: "/pages/8e8f80f69b775a56/",
     component: GlobalLayout,
@@ -571,22 +571,6 @@ export const routes = [
   {
     path: "/blogs/《ES6 教程》笔记/33.SIMD.html",
     redirect: "/pages/8e8f80f69b775a56/"
-  },
-  {
-    name: "v-3c35f69d",
-    path: "/pages/e97bc1e5626b082c/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3c35f69d").then(next)
-    },
-  },
-  {
-    path: "/pages/e97bc1e5626b082c/index.html",
-    redirect: "/pages/e97bc1e5626b082c/"
-  },
-  {
-    path: "/blogs/《ES6 教程》笔记/30.装饰器.html",
-    redirect: "/pages/e97bc1e5626b082c/"
   },
   {
     name: "v-6f26cac3",
@@ -605,39 +589,39 @@ export const routes = [
     redirect: "/pages/ea6f3b870f6dab69/"
   },
   {
-    name: "v-02772db8",
-    path: "/docs/theme-reco/",
+    name: "v-40a4a04a",
+    path: "/docs/YUI/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-02772db8").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-40a4a04a").then(next)
     },
   },
   {
-    path: "/docs/theme-reco/index.html",
-    redirect: "/docs/theme-reco/"
+    path: "/docs/YUI/index.html",
+    redirect: "/docs/YUI/"
   },
   {
-    name: "v-5898f432",
-    path: "/docs/theme-reco/api.html",
+    name: "v-c5e6f876",
+    path: "/docs/YUI/api.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5898f432").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-c5e6f876").then(next)
     },
   },
   {
-    name: "v-4d610086",
-    path: "/docs/theme-reco/plugin.html",
+    name: "v-b868acfe",
+    path: "/docs/YUI/plugin.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4d610086").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-b868acfe").then(next)
     },
   },
   {
-    name: "v-18cf0bf2",
-    path: "/docs/theme-reco/theme.html",
+    name: "v-3d626667",
+    path: "/docs/YUI/theme.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-18cf0bf2").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-3d626667").then(next)
     },
   },
   {
@@ -680,56 +664,17 @@ export const routes = [
     redirect: "/timeline/"
   },
   {
-    name: "v-1368f1e8",
-    path: "/tag/tag3/",
+    name: "v-3257dcde",
+    path: "/tag/ES6/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-1368f1e8").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-3257dcde").then(next)
     },
-    meta: {"pid":"tags","id":"tag3"}
+    meta: {"pid":"tags","id":"ES6"}
   },
   {
-    path: "/tag/tag3/index.html",
-    redirect: "/tag/tag3/"
-  },
-  {
-    name: "v-1368f226",
-    path: "/tag/tag2/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-1368f226").then(next)
-    },
-    meta: {"pid":"tags","id":"tag2"}
-  },
-  {
-    path: "/tag/tag2/index.html",
-    redirect: "/tag/tag2/"
-  },
-  {
-    name: "v-1368f264",
-    path: "/tag/tag1/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-1368f264").then(next)
-    },
-    meta: {"pid":"tags","id":"tag1"}
-  },
-  {
-    path: "/tag/tag1/index.html",
-    redirect: "/tag/tag1/"
-  },
-  {
-    name: "v-1368f1aa",
-    path: "/tag/tag4/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-1368f1aa").then(next)
-    },
-    meta: {"pid":"tags","id":"tag4"}
-  },
-  {
-    path: "/tag/tag4/index.html",
-    redirect: "/tag/tag4/"
+    path: "/tag/ES6/index.html",
+    redirect: "/tag/ES6/"
   },
   {
     name: "v-7c0b72d8",
@@ -745,43 +690,30 @@ export const routes = [
     redirect: "/tag/ESLint/"
   },
   {
-    name: "v-3257dcde",
-    path: "/tag/ES6/",
+    name: "v-1368f226",
+    path: "/tag/tag2/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-3257dcde").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-1368f226").then(next)
     },
-    meta: {"pid":"tags","id":"ES6"}
+    meta: {"pid":"tags","id":"tag2"}
   },
   {
-    path: "/tag/ES6/index.html",
-    redirect: "/tag/ES6/"
+    path: "/tag/tag2/index.html",
+    redirect: "/tag/tag2/"
   },
   {
-    name: "v-5ce69b59",
-    path: "/categories/category2/",
+    name: "v-b2aef3ee",
+    path: "/categories/《ES6 教程》笔记/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-5ce69b59").then(next)
+      ensureAsyncComponentsLoaded("Category", "v-b2aef3ee").then(next)
     },
-    meta: {"pid":"categories","id":"category2"}
+    meta: {"pid":"categories","id":"《ES6 教程》笔记"}
   },
   {
-    path: "/categories/category2/index.html",
-    redirect: "/categories/category2/"
-  },
-  {
-    name: "v-5ce69b3a",
-    path: "/categories/category1/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-5ce69b3a").then(next)
-    },
-    meta: {"pid":"categories","id":"category1"}
-  },
-  {
-    path: "/categories/category1/index.html",
-    redirect: "/categories/category1/"
+    path: "/categories/《ES6 教程》笔记/index.html",
+    redirect: "/categories/《ES6 教程》笔记/"
   },
   {
     name: "v-f6343622",
@@ -797,17 +729,17 @@ export const routes = [
     redirect: "/categories/前端标准化/"
   },
   {
-    name: "v-b2aef3ee",
-    path: "/categories/《ES6 教程》笔记/",
+    name: "v-5ce69b3a",
+    path: "/categories/category1/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-b2aef3ee").then(next)
+      ensureAsyncComponentsLoaded("Category", "v-5ce69b3a").then(next)
     },
-    meta: {"pid":"categories","id":"《ES6 教程》笔记"}
+    meta: {"pid":"categories","id":"category1"}
   },
   {
-    path: "/categories/《ES6 教程》笔记/index.html",
-    redirect: "/categories/《ES6 教程》笔记/"
+    path: "/categories/category1/index.html",
+    redirect: "/categories/category1/"
   },
   {
     name: "v-1d4b4f0c",

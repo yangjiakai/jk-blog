@@ -11,11 +11,11 @@ home: true
 #     background: "#fff",
 #     borderRadius: "1rem",
 #   }
-heroText: vuepress-theme-reco
+heroText: Never Settle
 heroTextStyle: { color:#fff !important }
 tagline: 昨日の経験は明日力になる
-bgImage: /bg.jpg
-bgImageStyle: { height: "800px" }
+bgImage: /bg.svg
+bgImageStyle: { height: "1000px" }
 isShowTitleInHome: false
 actionText: Guide
 actionLink: /views/other/guide

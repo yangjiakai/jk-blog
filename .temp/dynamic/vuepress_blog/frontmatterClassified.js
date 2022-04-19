@@ -3,36 +3,44 @@
  */
 export default {
   "tags": {
-    "tag3": {
-      "key": "tag3",
+    "ES6": {
+      "key": "ES6",
       "scope": "tags",
-      "path": "/tag/tag3/",
+      "path": "/tag/ES6/",
       "pageKeys": [
-        "v-4ddec33a"
-      ]
-    },
-    "tag2": {
-      "key": "tag2",
-      "scope": "tags",
-      "path": "/tag/tag2/",
-      "pageKeys": [
-        "v-9ff679cc"
-      ]
-    },
-    "tag1": {
-      "key": "tag1",
-      "scope": "tags",
-      "path": "/tag/tag1/",
-      "pageKeys": [
-        "v-26bbb24c"
-      ]
-    },
-    "tag4": {
-      "key": "tag4",
-      "scope": "tags",
-      "path": "/tag/tag4/",
-      "pageKeys": [
-        "v-11415f7a"
+        "v-c085bf28",
+        "v-2b6b1e91",
+        "v-14de622d",
+        "v-7a8e90ce",
+        "v-9a69caf4",
+        "v-7a34a994",
+        "v-fc1b12ae",
+        "v-5d8cba3a",
+        "v-5ff2d8b6",
+        "v-b76c5fe0",
+        "v-2534c2cf",
+        "v-e63e0d48",
+        "v-2b5169de",
+        "v-438860be",
+        "v-6a432548",
+        "v-6cc3cc1e",
+        "v-13d78db2",
+        "v-01d7a7b2",
+        "v-12a8e728",
+        "v-47b76100",
+        "v-737f22ee",
+        "v-1e548237",
+        "v-39f253f8",
+        "v-4c0b0454",
+        "v-c983e98e",
+        "v-31c24c4f",
+        "v-2f750624",
+        "v-3c35f69d",
+        "v-49abbeba",
+        "v-62ed22c8",
+        "v-28b5b13c",
+        "v-28794364",
+        "v-6f26cac3"
       ]
     },
     "ESLint": {
@@ -43,64 +51,54 @@ export default {
         "v-0fc76610"
       ]
     },
-    "ES6": {
-      "key": "ES6",
+    "tag2": {
+      "key": "tag2",
       "scope": "tags",
-      "path": "/tag/ES6/",
+      "path": "/tag/tag2/",
       "pageKeys": [
-        "v-7a8e90ce",
-        "v-2b6b1e91",
-        "v-14de622d",
-        "v-c085bf28",
-        "v-9a69caf4",
-        "v-fc1b12ae",
-        "v-7a34a994",
-        "v-5ff2d8b6",
-        "v-5d8cba3a",
-        "v-2534c2cf",
-        "v-b76c5fe0",
-        "v-2b5169de",
-        "v-e63e0d48",
-        "v-13d78db2",
-        "v-6a432548",
-        "v-438860be",
-        "v-6cc3cc1e",
-        "v-01d7a7b2",
-        "v-12a8e728",
-        "v-47b76100",
-        "v-39f253f8",
-        "v-737f22ee",
-        "v-1e548237",
-        "v-c983e98e",
-        "v-4c0b0454",
-        "v-31c24c4f",
-        "v-49abbeba",
-        "v-2f750624",
-        "v-28b5b13c",
-        "v-62ed22c8",
-        "v-28794364",
-        "v-3c35f69d",
-        "v-6f26cac3"
+        "v-1f1780bd"
       ]
     }
   },
   "categories": {
-    "category2": {
-      "key": "category2",
+    "《ES6 教程》笔记": {
+      "key": "《ES6 教程》笔记",
       "scope": "categories",
-      "path": "/categories/category2/",
+      "path": "/categories/《ES6 教程》笔记/",
       "pageKeys": [
-        "v-4ddec33a",
-        "v-11415f7a"
-      ]
-    },
-    "category1": {
-      "key": "category1",
-      "scope": "categories",
-      "path": "/categories/category1/",
-      "pageKeys": [
-        "v-9ff679cc",
-        "v-26bbb24c"
+        "v-c085bf28",
+        "v-2b6b1e91",
+        "v-14de622d",
+        "v-7a8e90ce",
+        "v-9a69caf4",
+        "v-7a34a994",
+        "v-fc1b12ae",
+        "v-5d8cba3a",
+        "v-5ff2d8b6",
+        "v-b76c5fe0",
+        "v-2534c2cf",
+        "v-e63e0d48",
+        "v-2b5169de",
+        "v-438860be",
+        "v-6a432548",
+        "v-6cc3cc1e",
+        "v-13d78db2",
+        "v-01d7a7b2",
+        "v-12a8e728",
+        "v-47b76100",
+        "v-737f22ee",
+        "v-1e548237",
+        "v-39f253f8",
+        "v-4c0b0454",
+        "v-c983e98e",
+        "v-31c24c4f",
+        "v-2f750624",
+        "v-3c35f69d",
+        "v-49abbeba",
+        "v-62ed22c8",
+        "v-28b5b13c",
+        "v-28794364",
+        "v-6f26cac3"
       ]
     },
     "前端标准化": {
@@ -111,44 +109,12 @@ export default {
         "v-0fc76610"
       ]
     },
-    "《ES6 教程》笔记": {
-      "key": "《ES6 教程》笔记",
+    "category1": {
+      "key": "category1",
       "scope": "categories",
-      "path": "/categories/《ES6 教程》笔记/",
+      "path": "/categories/category1/",
       "pageKeys": [
-        "v-7a8e90ce",
-        "v-2b6b1e91",
-        "v-14de622d",
-        "v-c085bf28",
-        "v-9a69caf4",
-        "v-fc1b12ae",
-        "v-7a34a994",
-        "v-5ff2d8b6",
-        "v-5d8cba3a",
-        "v-2534c2cf",
-        "v-b76c5fe0",
-        "v-2b5169de",
-        "v-e63e0d48",
-        "v-13d78db2",
-        "v-6a432548",
-        "v-438860be",
-        "v-6cc3cc1e",
-        "v-01d7a7b2",
-        "v-12a8e728",
-        "v-47b76100",
-        "v-39f253f8",
-        "v-737f22ee",
-        "v-1e548237",
-        "v-c983e98e",
-        "v-4c0b0454",
-        "v-31c24c4f",
-        "v-49abbeba",
-        "v-2f750624",
-        "v-28b5b13c",
-        "v-62ed22c8",
-        "v-28794364",
-        "v-3c35f69d",
-        "v-6f26cac3"
+        "v-1f1780bd"
       ]
     }
   },

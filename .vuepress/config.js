@@ -48,7 +48,7 @@ module.exports = {
         items: [
           {
             text: "GitHub",
-            link: "https://github.com/recoluan",
+            link: "https://github.com/yangjiakai",
             icon: "reco-github",
           },
         ],
@@ -76,11 +76,10 @@ module.exports = {
         link: "https://www.recoluan.com",
       },
       {
-        title: "vuepress-theme-reco",
-        desc: "A simple and beautiful vuepress Blog & Doc theme.",
-        avatar:
-          "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        link: "https://vuepress-theme-reco.recoluan.com",
+        title: "VoidWh",
+        desc: "Like A Dog Chasing Cars",
+        avatar: "https://blog.void-yy.com/avatar.png",
+        link: "https://blog.void-yy.com/",
       },
     ],
     logo: "/logo.png",

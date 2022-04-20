@@ -44,6 +44,8 @@
         </div>
         <div class="info-wrapper">
           <PersonalInfo />
+          <h4>AAA</h4>
+          <hr />
           <h4>
             <reco-icon icon="reco-category" /> {{ $recoLocales.category }}
           </h4>

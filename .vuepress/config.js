@@ -37,8 +37,8 @@ module.exports = {
         icon: "reco-message",
         items: [
           {
-            text: "vuepress-reco",
-            link: "/docs/theme-reco/",
+            text: "yui",
+            link: "/docs/yui/",
           },
         ],
       },
@@ -55,7 +55,7 @@ module.exports = {
       },
     ],
     sidebar: {
-      "/docs/theme-reco/": ["", "theme", "plugin", "api"],
+      "/docs/yui/": ["", "theme", "plugin", "api"],
     },
     type: "blog",
     blogConfig: {
@@ -90,6 +90,7 @@ module.exports = {
     authorAvatar: "/avatar.png",
     record: "xxxx",
     startYear: "2017",
+    permalink: "/:year/:month/:day/:slug",
   },
   markdown: {
     lineNumbers: true,

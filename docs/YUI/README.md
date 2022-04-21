@@ -1,6 +1,6 @@
 ---
-title: YUI技术文档
+title: theme-reco
 date: 2020-05-29
 ---
 
-## 这是YUI的主题技术文档
+This is theme-reco.

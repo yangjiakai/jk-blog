@@ -1,6 +1,6 @@
 ---
-title: 扩展插件
-date: 2022-04-21
+title: plugin
+date: 2020-05-28
 ---
 
-## 这是YUI的扩展插件页面
+This is plugin.

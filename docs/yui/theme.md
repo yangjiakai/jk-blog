@@ -1,6 +1,6 @@
 ---
-title: 主题切换
-date: 2022-04-21
+title: theme
+date: 2020-05-27
 ---
 
-## ...这是未来开发组件库的主题页面
+This is theme.

@@ -37,8 +37,8 @@ module.exports = {
         icon: "reco-message",
         items: [
           {
-            text: "yui",
-            link: "/docs/yui/",
+            text: "Reco",
+            link: "/docs/theme-reco/",
           },
         ],
       },
@@ -55,7 +55,7 @@ module.exports = {
       },
     ],
     sidebar: {
-      "/docs/yui/": ["", "theme", "plugin", "api"],
+      "/docs/theme-reco/": ["", "theme", "plugin", "api"],
     },
     type: "blog",
     blogConfig: {
@@ -90,7 +90,6 @@ module.exports = {
     authorAvatar: "/avatar.png",
     record: "xxxx",
     startYear: "2017",
-    permalink: "/:year/:month/:day/:slug",
   },
   markdown: {
     lineNumbers: true,

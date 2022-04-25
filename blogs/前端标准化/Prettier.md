@@ -1,7 +1,7 @@
 ---
-title: ESLint 配置
+title: Prettier 配置
 date: 2022-04-18 15:45:35
-permalink: /pages/frontend-standard/eslint
+permalink: /pages/frontend-standard/prettier
 sidebar: "auto"
 author: Yang J.K.
 # keys:
@@ -9,14 +9,19 @@ author: Yang J.K.
 categories:
   - 前端标准化
 tags:
-  - ESLint
+  - prettier 
   - 前端标准化
 ---
 
 
-## ESLint 简介
+## Prettier 简介
 
-前端代码检测工具，`.eslintrc.js`为项目内配置文件，基础lint规则之上还有各种版本的lint规则延伸
+代码美化，格式化工具
+
+## Prettier 安装
+
+## Prettier 配置文件
+
 
 ```json
 ? Pick a linter / formatter config: 

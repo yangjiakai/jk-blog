@@ -1,0 +1,97 @@
+---
+title: 密码框状态通用处理
+date: 2022-04-18 15:45:35
+permalink: /pages/frontend-standard/passwordChange
+sidebar: "auto"
+author: Yang J.K.
+# keys:
+#   - 123456
+categories:
+  - 前端标准化
+tags:
+  - 前端登录标准化 
+  - 前端标准化
+---
+
+
+## 密码框状态
+
+1 明文状态
+2 密文状态
+
+## 思路
+
+通过监听input type来切换密码框的类型，更改后缀眼睛图标
+
+<!-- more -->
+
+## ElementUI 后缀图标插槽解决方案
+
+```vue
+<template>
+<el-form-item prop="password">
+  <el-input
+    v-model="loginForm.password"
+    prefix-icon="Lock"
+    placeholder="password"
+    name="password"
+    :type="passwordType"
+    tabindex="1"
+  >
+    <template #suffix>
+      <el-icon class="el-input__icon" @click="onChangePasswordType">
+        <search v-if="passwordType == 'password'" />
+        <camera v-else />
+      </el-icon>
+    </template>
+  </el-input>
+
+</el-form-item>
+</template>
+
+<script  setup>
+  const passwordType = ref("password");
+  const onChangePasswordType = () => {
+    passwordType.value = passwordType.value === "password" ? "text" : "password";
+  };
+</script>
+```
+
+## 自定义后缀图标解决方案
+
+```vue
+<template>
+  <div class="login-container">
+    <el-form class="login-form" :model="loginForm" :rules="loginRules">
+      ...
+        <el-input
+          ...
+          :type="passwordType"
+        />
+        <span class="show-pwd">
+          <svg-icon
+            :icon="passwordType === 'password' ? 'eye' : 'eye-open'"
+            @click="onChangePwdType"
+          />
+        </span>
+      ...
+    </el-form>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue'
+...
+
+// 处理密码框文本显示状态
+const passwordType = ref('password')
+const onChangePwdType = () => {
+  if (passwordType.value === 'password') {
+    passwordType.value = 'text'
+  } else {
+    passwordType.value = 'password'
+  }
+}
+</script>
+
+```

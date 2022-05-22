@@ -12,13 +12,14 @@ tags:
   - Vue3 
 ---
 
+![ESLint 配置](/images/header/frontend_solution.png)
 
+<!-- more -->
 ## 状态驱动动态CSS
 
 可以很容易把vue里面的动态变量绑定到css样式内部
 实现css内写js
 
-<!-- more -->
 ## Demo
 
 ```vue

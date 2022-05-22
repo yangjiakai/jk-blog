@@ -1,27 +1,25 @@
 ---
-title: Prettier 配置
+title: ESLint 配置
 date: 2022-04-18 15:45:35
-permalink: /pages/frontend-standard/prettier
+permalink: /pages/frontend-standard/eslint
 sidebar: "auto"
 author: Yang J.K.
 # keys:
 #   - 123456
 categories:
-  - 前端标准化
+  - 前端通用方案
 tags:
-  - prettier 
-  - 前端标准化
+  - ESLint
+  - 前端通用方案
 ---
 
+![ESLint 配置](/images/header/frontend_solution.png)
 
-## Prettier 简介
+<!-- more -->
 
-代码美化，格式化工具
+## ESLint 简介
 
-## Prettier 安装
-
-## Prettier 配置文件
-
+前端代码检测工具，`.eslintrc.js`为项目内配置文件，基础lint规则之上还有各种版本的lint规则延伸
 
 ```json
 ? Pick a linter / formatter config: 
@@ -29,8 +27,6 @@ tags:
   ESLint + Airbnb config // Airbnb 的 ESLint 延伸规则
   ESLint + Standard config // 标准的 ESLint 规则
 ```
-
-<!-- more -->
 
 ## 关于`.eslintrc.js`文件配置项目
 

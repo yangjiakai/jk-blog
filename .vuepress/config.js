@@ -37,8 +37,8 @@ module.exports = {
         icon: "reco-message",
         items: [
           {
-            text: "Reco",
-            link: "/docs/theme-reco/",
+            text: "VueYUI",
+            link: "/docs/vueyui/",
           },
         ],
       },
@@ -55,7 +55,7 @@ module.exports = {
       },
     ],
     sidebar: {
-      "/docs/theme-reco/": ["", "theme", "plugin", "api"],
+      "/docs/vueyui/": [""],
     },
     type: "blog",
     blogConfig: {

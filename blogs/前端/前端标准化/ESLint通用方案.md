@@ -1,6 +1,6 @@
 ---
-title: ESLint 配置
-date: 2022-04-18 15:45:35
+title: 【前端通用方案】ESLint 通用方案
+date: 2022-04-20 15:45:35
 permalink: /pages/frontend-standard/eslint
 sidebar: "auto"
 author: Yang J.K.
@@ -13,7 +13,7 @@ tags:
   - 前端通用方案
 ---
 
-![ESLint 配置](/images/header/frontend_solution.png)
+[![LZ6k5i.png](https://s6.jpg.cm/2022/05/22/LZ6k5i.png)](https://imagelol.com/image/LZ6k5i)
 
 <!-- more -->
 

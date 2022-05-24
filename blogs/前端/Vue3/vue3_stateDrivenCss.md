@@ -15,7 +15,7 @@ tags:
 ![LZ6Ey8.png](https://s6.jpg.cm/2022/05/22/LZ6Ey8.png)
 
 <!-- more -->
-## 状态驱动动态CSS
+## Vue3中自定义组件使用v-model实现双向绑定
 
 可以很容易把vue里面的动态变量绑定到css样式内部
 实现css内写js

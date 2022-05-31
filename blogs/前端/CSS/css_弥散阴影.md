@@ -18,8 +18,6 @@ tags:
 
 ## 弥散阴影原理
 
-## v-model 原理
-
 > 原理文档可以参考[Vue3 组件基础](https://v3.cn.vuejs.org/guide/component-basics.html#%E5%9C%A8%E7%BB%84%E4%BB%B6%E4%B8%8A%E4%BD%BF%E7%94%A8-v-model)和[Vue3 深入组件](https://v3.cn.vuejs.org/guide/component-custom-events.html#v-model-%E5%8F%82%E6%95%B0)
 
 双向数据绑定分为
